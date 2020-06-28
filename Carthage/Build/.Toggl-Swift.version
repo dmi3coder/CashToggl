@@ -1,0 +1,19 @@
+{
+  "Mac" : [
+    {
+      "name" : "TogglCore",
+      "hash" : "33a87cd278290db906c7a61178eeca7a4650f1feb3ed6dbb158cabe13fbd7017",
+      "swiftToolchainVersion" : "5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+    }
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "0.2",
+  "iOS" : [
+
+  ]
+}

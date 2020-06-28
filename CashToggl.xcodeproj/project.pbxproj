@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD697AB524A88C3D007BA4EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD697AB424A88C3D007BA4EE /* AppDelegate.swift */; };
+		AD697AB724A88C3D007BA4EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD697AB624A88C3D007BA4EE /* ContentView.swift */; };
+		AD697AB924A88C3F007BA4EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD697AB824A88C3F007BA4EE /* Assets.xcassets */; };
+		AD697ABC24A88C3F007BA4EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD697ABB24A88C3F007BA4EE /* Preview Assets.xcassets */; };
+		AD697ABF24A88C3F007BA4EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD697ABD24A88C3F007BA4EE /* Main.storyboard */; };
+		AD697ACC24A88E53007BA4EE /* TogglApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD697ACB24A88E53007BA4EE /* TogglApi.swift */; };
+		AD697ACD24A88F1A007BA4EE /* TogglCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD697AC924A88DB4007BA4EE /* TogglCore.framework */; };
+		AD697ACE24A88F1A007BA4EE /* TogglCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AD697AC924A88DB4007BA4EE /* TogglCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AD697ACF24A88F1A007BA4EE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AD697ACE24A88F1A007BA4EE /* TogglCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AD697AB124A88C3D007BA4EE /* CashToggl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashToggl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD697AB424A88C3D007BA4EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD697AB624A88C3D007BA4EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD697AB824A88C3F007BA4EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD697ABB24A88C3F007BA4EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD697ABE24A88C3F007BA4EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD697AC024A88C3F007BA4EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD697AC124A88C3F007BA4EE /* CashToggl.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CashToggl.entitlements; sourceTree = "<group>"; };
+		AD697AC924A88DB4007BA4EE /* TogglCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TogglCore.framework; path = Carthage/Build/Mac/TogglCore.framework; sourceTree = "<group>"; };
+		AD697ACB24A88E53007BA4EE /* TogglApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TogglApi.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD697AAE24A88C3D007BA4EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD697ACD24A88F1A007BA4EE /* TogglCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD697AA824A88C3C007BA4EE = {
+			isa = PBXGroup;
+			children = (
+				AD697AB324A88C3D007BA4EE /* CashToggl */,
+				AD697AB224A88C3D007BA4EE /* Products */,
+				AD697AC824A88DB4007BA4EE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AD697AB224A88C3D007BA4EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD697AB124A88C3D007BA4EE /* CashToggl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD697AB324A88C3D007BA4EE /* CashToggl */ = {
+			isa = PBXGroup;
+			children = (
+				AD697AB424A88C3D007BA4EE /* AppDelegate.swift */,
+				AD697AB624A88C3D007BA4EE /* ContentView.swift */,
+				AD697AB824A88C3F007BA4EE /* Assets.xcassets */,
+				AD697ABD24A88C3F007BA4EE /* Main.storyboard */,
+				AD697AC024A88C3F007BA4EE /* Info.plist */,
+				AD697AC124A88C3F007BA4EE /* CashToggl.entitlements */,
+				AD697ABA24A88C3F007BA4EE /* Preview Content */,
+				AD697ACB24A88E53007BA4EE /* TogglApi.swift */,
+			);
+			path = CashToggl;
+			sourceTree = "<group>";
+		};
+		AD697ABA24A88C3F007BA4EE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AD697ABB24A88C3F007BA4EE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD697AC824A88DB4007BA4EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD697AC924A88DB4007BA4EE /* TogglCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD697AB024A88C3D007BA4EE /* CashToggl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD697AC424A88C3F007BA4EE /* Build configuration list for PBXNativeTarget "CashToggl" */;
+			buildPhases = (
+				AD697AAD24A88C3D007BA4EE /* Sources */,
+				AD697AAE24A88C3D007BA4EE /* Frameworks */,
+				AD697AAF24A88C3D007BA4EE /* Resources */,
+				AD697AC724A88D5F007BA4EE /* Run Script */,
+				AD697ACF24A88F1A007BA4EE /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CashToggl;
+			productName = CashToggl;
+			productReference = AD697AB124A88C3D007BA4EE /* CashToggl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD697AA924A88C3C007BA4EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Donau Tech";
+				TargetAttributes = {
+					AD697AB024A88C3D007BA4EE = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = AD697AAC24A88C3C007BA4EE /* Build configuration list for PBXProject "CashToggl" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD697AA824A88C3C007BA4EE;
+			productRefGroup = AD697AB224A88C3D007BA4EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD697AB024A88C3D007BA4EE /* CashToggl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD697AAF24A88C3D007BA4EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD697ABF24A88C3F007BA4EE /* Main.storyboard in Resources */,
+				AD697ABC24A88C3F007BA4EE /* Preview Assets.xcassets in Resources */,
+				AD697AB924A88C3F007BA4EE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AD697AC724A88D5F007BA4EE /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"$(SRCROOT)/Carthage/Build/Mac/TogglCore.framework",
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD697AAD24A88C3D007BA4EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD697AB724A88C3D007BA4EE /* ContentView.swift in Sources */,
+				AD697AB524A88C3D007BA4EE /* AppDelegate.swift in Sources */,
+				AD697ACC24A88E53007BA4EE /* TogglApi.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD697ABD24A88C3F007BA4EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD697ABE24A88C3F007BA4EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD697AC224A88C3F007BA4EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD697AC324A88C3F007BA4EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AD697AC524A88C3F007BA4EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CashToggl/CashToggl.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"CashToggl/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = CashToggl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = donau.tech.CashToggl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AD697AC624A88C3F007BA4EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CashToggl/CashToggl.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"CashToggl/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = CashToggl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = donau.tech.CashToggl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD697AAC24A88C3C007BA4EE /* Build configuration list for PBXProject "CashToggl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD697AC224A88C3F007BA4EE /* Debug */,
+				AD697AC324A88C3F007BA4EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD697AC424A88C3F007BA4EE /* Build configuration list for PBXNativeTarget "CashToggl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD697AC524A88C3F007BA4EE /* Debug */,
+				AD697AC624A88C3F007BA4EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD697AA924A88C3C007BA4EE /* Project object */;
+}
